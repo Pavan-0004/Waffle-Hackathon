@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-33xl: 52px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gainsboro: #d9d9d9;
+  --color-black: #000;
+  --color-silver: #b8b8b8;
+  --color-darkgray: #b4b2b2;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-11xl: 30px;
+}

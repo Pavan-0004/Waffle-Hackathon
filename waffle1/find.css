@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    background-image: url(guilherme-stecanella-je_lLFvSZPM-unsplash.jpg);
+}
+
+.flex-container {
+    padding-top: 15px ;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.flex-items {
+    background-color: #ff8e09;
+    
+    
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.6s;
+  }
+.flex-items:hover {
+    
+    transform: translate(0, -10px);
+    
+  }
+.item1{
+    width: 700px;
+    height: 250px;
+}
+.item2{
+    width: 700px;
+    height: 250px;
+}
+.item3{
+    width: 700px;
+    height: 250px;
+}
+.item4{
+    width: 700px;
+    height: 250px;
+}
+.item5{
+    width: 700px;
+    height: 250px;
+}
+.item6{
+    width: 700px;
+    height: 250px;
+}
+.item7{
+    width: 700px;
+    height: 250px;
+}
+.item8{
+    width: 700px;
+    height: 250px;
+}
+.item9{
+    width: 700px;
+    height: 250px;
+}
+.title {
+    padding-top: 60px;
+    padding-left: 40px;
+    font-size: 25px;
+    text-align: center;
+    color: #000;
+  }
+h3 {
+    padding-top: 20px;
+    color: #23283e;
+    background-color: transparent;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.3s ease 0s;
+    font-family: 'Roboto', sans-serif;
+}
+h4 {
+    padding-top: 10px;
+    margin: 10px 20px;
+    color: #23283e;
+    font-style: normal;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.start li{
+    list-style: none;
+}
+.start button {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px 20px;
+    border: none;
+    background-color: white;
+    transition: 0.6s;
+    text-decoration: none;
+}
+.start button:hover {
+    background-color:#ff8e09;
+    color: white;    
+}
+.start button li a {
+    color: #000;
+    text-decoration: none;
+}
+.box {
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
